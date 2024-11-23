@@ -1,5 +1,6 @@
 
 import pinguins from "../assets/images/pinguins-at-the-beach.jpg";
+import dogWithGlasses from "../src/assets/images/dog-with-glasses.jpg"
 import { motion } from "framer-motion";
 import { useLocation } from "react-router-dom";
 
@@ -25,7 +26,7 @@ const Main = () => {
     }}>
 
         <figure className="rounded-xl w-full flex justify-center items-center custom-h">
-            <img src="../src/assets/images/dog-with-glasses.jpg" alt="dog-with-glasses" className="rounded-xl custom-image"/>
+            <img src={dogWithGlasses} alt="dog-with-glasses" className="rounded-xl custom-image"/>
         </figure>
         <figure className="rounded-xl w-full flex justify-center items-center custom-h custom-image">
             <img src={pinguins} alt="pinguins-at-the-beach" className="rounded-xl custom-image custom-h"/>
