@@ -1,10 +1,10 @@
 
 import pinguins from "../assets/images/pinguins-at-the-beach.jpg"
-import dogWithGlasses from "../src/assets/images/dog-with-glasses.jpg"
-import catWithGlasses from "../src/assets/images/cat-with-glasses.avif"
-import pandEating from "../src/assets/images/panda-eating.jpg"
-import gorilaThinking from "../src/assets/images/gorila-thinking.jpg"
-import owl from "../src/assets/images/owl-looking-at-you.webp" 
+import dogWithGlasses from "../assets/images/dog-with-glasses.jpg"
+import catWithGlasses from "../assets/images/cat-with-glasses.avif"
+import pandEating from "../assets/images/panda-eating.jpg"
+import gorilaThinking from "../assets/images/gorila-thinking.jpg"
+import owl from "../assets/images/owl-looking-at-you.webp" 
 import { motion } from "framer-motion";
 import { useLocation } from "react-router-dom";
 
